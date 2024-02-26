@@ -1,0 +1,25 @@
+{
+  "name": "generate-product",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The `generateProduct` function is used to generate random product data and save it to a JSON file. It takes a single parameter `total`, which specifies the number of products to generate",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "generator",
+    "dummy-data-product"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhamadluthfiam/generate-product"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.1.0",
+    "to-rupiah": "^1.0.1"
+  }
+}
